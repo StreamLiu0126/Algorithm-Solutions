@@ -2,6 +2,8 @@
 
 # [ABC286E] Souvenir 题解
 
+[[ABC286E] Souvenir](https://www.luogu.com.cn/problem/AT_abc286_e) 
+
 ## 思路分析
 
 这是一个单向连通图求最短路问题，同时还要维护金币的最大值。

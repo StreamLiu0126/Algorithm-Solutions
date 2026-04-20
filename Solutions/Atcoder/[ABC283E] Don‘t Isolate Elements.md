@@ -1,3 +1,7 @@
+# [ABC283E] Don‘t Isolate Elements 题解
+
+[AT_abc283_e [ABC283E] Don‘t Isolate Elements](https://www.luogu.com.cn/problem/AT_abc283_e)
+
 ### 核心思路
 
 首先我们可以观察到，对某一行进行操作时，该行内部的“孤立”状态是没有发生改变的，只会与上下两行建立关系而改变“孤立”状态。所以当我判断第 i行是否需要翻转的时候，我只需要关心 i-1和 i+1。
